@@ -1,33 +1,245 @@
-/* ..........fonts links---------- */
+/* -----------font links---------------- */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 
-
-/* -----------common css---------- */
+/*------------ common css--------------  */
 *{
     margin: 0;
     padding: 0;
     outline: 0;
+    box-sizing: border-box;
 }
 
-.img{
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
 }
 
-a{
-    text-decoration: none;
-}
-
-ul, ol{
+ul,ol{
     list-style: none;
-
 }
 
-:root{
+h1,h2,h3,h4,h5.h6{
+    margin: 0;
+    padding: 0;
+}
+
+.root{
+    --prclr:#42454A;
     --prfnt:"Ubuntu", sans-serif;
-    --prclr:#42454A;    
+}
+/* --------------navbar css-------------- */
+.mynavbar{
+    padding-top: 37px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #EAE8F3;
 }
 
-/* ------------navbar css---------- */
+.mynavbar ul{
+    gap: 77px;
+}
+.navbar-brand img{
+    width: 70px;
+    height: 47px;
+}
+
+.nav-item a{
+    font: var(--prfnt);
+    color: var(--prclr);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbutton{
+    display: flex;
+}
+.navbutton a{
+    font: var(--prfnt);
+    color: var(--prclr);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbutton :nth-child(1){
+    font-size: 14px;
+    color:var(--prclr);
+    width: 102px;
+    margin-right: 24px;
+    border-radius: 4px;
+}
+
+.navbutton :nth-child(1):hover{
+    background-color:#42454A;
+    color: white;
+}
+
+.navbutton :nth-child(2){
+    width: 106px;
+    font-size: 14px;
+    color:var(--prclr);
+    border-radius: 4px;
+}
+
+
+.navbutton :nth-child(2):hover{
+    background-color:#42454A;
+    color: white;
+}
+/* -------------banner part------------ */
+.banner_text{
+    max-width: 586px ;
+}
+
+.btl1{
+    max-width: 586px;
+    font-size: 90px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: var(--prfnt);
+    color: var(--prclr);
+}
+.btl2{
+    max-width: 586px;
+    font-size: 95px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--prfnt);
+    color: var(--prclr);
+}
+
+/* --------txt animation start----- */
+:root {
+  --primary-color: #c8dc71;
+  --gradient-color: linear-gradient(180deg, #d2ff00 0%, #00d2ff 100%);
+}
+
+
+/* Custom */
+
+h1 {
+        /* max-width: 586px;
+    font-size: 95px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--prfnt);
+    color: var(--prclr); */
+    max-width: 586px;
+  background: -webkit-linear-gradient(25deg, #eee, #333);
+  -webkit-background-clip:text;
+  /* -webkit-text-fill-color: transparent; */
+  font-size: 95px;
+  font-weight: 500;
+  font-family: var(--prfnt);
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: type 1.5s steps(90) 1.5s 1 normal both, cursor 1s step-end infinite;
+  position: relative;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* ---------txt animation end------------ */
+
+.btlpd{
+    width: 335px;
+    border-bottom: 4px solid #42454A;
+    margin-top: 93px;
+    margin-bottom: 62px;
+}
+
+.bntxt p{
+    width: 353px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--prfnt);
+
+}
+
+.b_group{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.bgicon{
+    width: 58px;
+}
+.bgbuynow a{
+    width: 82px;
+    font-family: var(--prfnt);
+    color: var(--prclr);
+}
+.wvideo{
+    max-width: 120px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--prfnt);
+    color:var(--prclr);
+}
+.groupic{
+    max-width: 80px;
+    animation: ghur 2s linear infinite;
+}
+
+@keyframes ghur {
+from{
+    transform: rotate(0deg)
+}
+to{
+transform: rotate(360deg);
+}
+    
+}
+
+.b_group :nth-child(2){
+    margin-right: 50px;
+    margin-left: 21px;
+}
+
+.b_group :nth-child(3){
+    margin-right: 50px;
+}
+
+.play{
+    width: 9px;
+    top: 50%;
+    left: 50%;
+
+}
+.groupic{
+    position: relative;
+        transform: translate(-50%, -50%);
+}
+
+.bannerimg{
+    max-width: 855px;
+    max-height: 646px;
+    position: absolute;
+    right: 0px;
+    top:131px;
+}
