@@ -134,7 +134,7 @@ h1 {
     color: var(--prclr); */
     max-width: 586px;
   background: -webkit-linear-gradient(25deg, #eee, #333);
-  -webkit-background-clip:text;
+  background-clip:text;
   /* -webkit-text-fill-color: transparent; */
   font-size: 95px;
   font-weight: 500;
@@ -191,6 +191,8 @@ h1 {
 }
 .bgbuynow a{
     width: 82px;
+    font-size: 20px;
+    font-weight: 700;
     font-family: var(--prfnt);
     color: var(--prclr);
 }
@@ -227,8 +229,9 @@ transform: rotate(360deg);
 
 .play{
     width: 9px;
-    top: 50%;
-    left: 50%;
+   position: absolute;
+    margin-top: -10px;
+    margin-left: 418px;
 
 }
 .groupic{
