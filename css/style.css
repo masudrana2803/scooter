@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5.h6{
     padding: 0;
 }
 
-.root{
+:root{
     --prclr:#42454A;
     --prfnt:"Ubuntu", sans-serif;
 }
@@ -306,4 +306,60 @@ transform: rotate(360deg);
     font-weight: 400;
     font-family: var(--prfnt);
     color: var(--prclr);
+}
+/* ---------product information------ */
+.cmnhd{
+    width: 598px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cmnhd h4{
+    font-size: 50px;
+    font-weight:700 ;
+    color: var(--prclr);
+    font-family:var(--prfnt);
+    margin-bottom: 34px;
+}
+
+.cmnhd p{
+        font-size: 20px;
+    font-weight:400 ;
+    color: var(--prclr);
+    font-family:var(--prfnt);
+    margin-bottom: 143px;
+}
+
+.itm1{
+    display: flex;
+    gap: 18px;
+    justify-content: end;
+    align-items: start;
+    margin-bottom: 34px;
+
+}
+
+.itm1mg{
+    width: 49px;
+    height: 49px;
+}
+
+.itm1txt{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--prfnt);
+    color: var(--prclr);
+    padding-top: 12px;
+}
+
+.prdinfimg{
+    width: 748px;
+    height: 706px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+#productinfo{
+    position: relative;
 }
