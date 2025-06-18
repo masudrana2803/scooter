@@ -333,10 +333,17 @@ transform: rotate(360deg);
 .itm1{
     display: flex;
     gap: 18px;
-    justify-content: end;
-    align-items: start;
     margin-bottom: 34px;
+}
 
+.try{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightalign{
+    display: flex;
+    justify-content: end;
 }
 
 .itm1mg{
@@ -363,3 +370,4 @@ transform: rotate(360deg);
 #productinfo{
     position: relative;
 }
+
