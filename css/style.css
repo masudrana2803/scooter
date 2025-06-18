@@ -364,7 +364,7 @@ transform: rotate(360deg);
     height: 706px;
     position: absolute;
     top: 20%;
-    left: 10%;
+    left: 0%;
 }
 
 #productinfo{
@@ -380,4 +380,58 @@ transform: rotate(360deg);
 #efficiency img{
 max-width: 100%;
 max-height: 493px;
+}
+
+
+/* --------accessories part--------- */
+#accessories{
+    margin-top: 315px;
+    margin-bottom: 131px;
+    position: relative;
+}
+
+.try h4{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--prclr);
+    font-family: var(--prfnt);
+    margin-bottom: 44px;
+
+}
+
+
+.accesoryimg{
+    max-width: 100%;
+    max-height: 487px;
+    position: absolute;
+    top: 25%;
+    right: 0%;
+}
+
+/* -------shopping----------- */
+.shoppingimg{
+    width: 779px;
+    height: 427px;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+
+#shopping{
+    margin-bottom: 103px;
+    position: relative;
+}
+
+/* ------upcoming-------- */
+.upcoming{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 194px;
+}
+
+.upcoming button{
+    padding: 29px 63px 29px 63px;
+    border: 2px solid var(--prclr);
+    width: 570px;
+    border-radius: 4px;
 }
