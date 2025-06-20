@@ -247,14 +247,16 @@ transform: rotate(360deg);
 
 .play{
     width: 9px;
-   position: absolute;
-    margin-top: -10px;
-    margin-left: 418px;
-
+    position: absolute;
+    padding: 0px;
+    margin: 0px !important;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
 }
-.groupic{
+.groupplay{
     position: relative;
-        transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
 
 .bannerimg{
@@ -435,3 +437,61 @@ max-height: 493px;
     width: 570px;
     border-radius: 4px;
 }
+
+
+/* -----------gallery------------ */
+.gal-txt{
+    margin-bottom: 132px;
+}
+
+#gallery{
+    height: 1300px;
+    background: none;
+    margin-bottom: 128px
+}
+
+/* .galleryrow2{
+    margin-top: 96px;
+} */
+
+.galleryrow1 img{
+width: 633px;
+height: 485px;
+}
+
+.row1img1{
+    margin-top: 190px;
+}
+
+
+
+.galleryrow2 img{
+width: 633px;
+height: 485px;
+}
+
+.row2img1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+}
+.row2img1 button{
+    width: 570px;
+    height: 94px;
+    border: 2px solid var(--prclr);
+    border-radius: 10px;
+}
+
+.row2img1 button a{
+        font-size: 30px;
+    font-weight: 700;
+    font-family: var(--prfnt);
+    color: var(--prclr);    
+}
+
+.row2img2{
+    margin-top: -90px;
+}
+
+/* slider */

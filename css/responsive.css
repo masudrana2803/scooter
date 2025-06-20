@@ -1,0 +1,29 @@
+@media (min-width:0) and (max-width: 575.98px)
+{
+
+.mynavbar {
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+.mynavbar ul {
+	gap: 5px;
+}
+.navbutton a {
+	height: 30px;
+}
+.btl1 p{
+	font-size: 40px;
+}
+    .banner_text h1{
+	font-size: 40px;
+}
+.bannerimg {
+	right: -500px;
+	top: 85px;
+}
+.bannerimg img{
+	width:30%;
+}
+
+
+}
