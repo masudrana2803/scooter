@@ -522,7 +522,7 @@ height: 485px;
 
 
 /* second slide */
-/* 
+
 #slide2{
 background: #FAFAFA;
 }
@@ -575,10 +575,6 @@ background: #FAFAFA;
     gap: 20px;
     justify-content: center;
     align-items: center;
-} */
-
-
-.slider_single_item{
-    width: 200px;
-    height: 200px;
 }
+
+

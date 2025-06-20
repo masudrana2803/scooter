@@ -26,9 +26,12 @@ $('.slider-nav').slick({
 
 
 // slide 2
-$('.multiple-items').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
+$('.lslider_single_item').slick({
+  infinite: false,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  arrows:true,
+  prevArrow:'<i class="fa-solid fa-arrow-left myArrow pr"></i>',
+  nextArrow:'<i class="fa-solid fa-arrow-right myArrow nx"></i>',
 });
-		
+			
