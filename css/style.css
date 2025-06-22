@@ -529,6 +529,7 @@ height: 485px;
 
 #slide2{
 background: #FAFAFA;
+height: 712px;
 }
 .slide-2txt h4{
     margin-bottom: 41px;
@@ -615,7 +616,7 @@ background: #FAFAFA;
 
 .pr{
     position: absolute;
-    bottom: -15%;
+    bottom: -30%;
     left: 44%;
 }
 
@@ -626,5 +627,15 @@ background: #FAFAFA;
 .nx{
     position: absolute;
     left: 49%;
-    bottom: -15%;
+    bottom: -30%;
+}
+/* -----News letter part */
+#newsletter{
+
+}
+.subscription{
+    width: 616px;
+    background-color: red;
+    margin-left:auto;
+    margin-right: auto;
 }
