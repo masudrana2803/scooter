@@ -535,7 +535,7 @@ background: #FAFAFA;
 }
 
 .slider_single_item .abc{
-    width: 360px;
+    width: 360px !important;
     height: 366px;
     background-color: #FAFAFA;
     padding: 52px 22px 51px 34px;
