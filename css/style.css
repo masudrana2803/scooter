@@ -639,6 +639,7 @@ height: 712px;
     margin: 0 auto;
     text-align: center;
     padding-top: 127px;
+    margin-bottom: 200px;
 }
 .subscription h2{
     font-size: 50px;
@@ -655,3 +656,34 @@ height: 712px;
     margin-top: 11px;
     margin-bottom: 59px;
 }
+
+.subscription button{
+    width: 196px;
+    height: 81px;
+    background-color: #42454A;
+    border-radius: 10px;
+}
+
+.subscription button:hover{
+background-color:#F5F5F5 ;
+color: #333;
+}
+
+.subscription input{
+    width: 400px;
+    height: 81px;
+    background-color: #F5F5F5;
+    padding-left: 38px;
+    border-radius: 10px;
+    border: 2px solid #F5F5F5;
+}
+
+.subscription button a{
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.subscription button a:hover{
+    color: black;
+}
+
