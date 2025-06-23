@@ -635,8 +635,23 @@ height: 712px;
 }
 .subscription{
     width: 616px;
-    background-color: red;
+    /* background-color: red; */
     margin: 0 auto;
     text-align: center;
+    padding-top: 127px;
+}
+.subscription h2{
+    font-size: 50px;
+    font-weight:700 ;
+    color: var(--prclr);
+    font-family:var(--prfnt);
 
+}
+.subscription p{
+        font-size: 20px;
+    font-weight:400 ;
+    color: var(--prclr);
+    font-family:var(--prfnt);
+    margin-top: 11px;
+    margin-bottom: 59px;
 }
