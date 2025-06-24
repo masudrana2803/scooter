@@ -688,7 +688,26 @@ color: #333;
 }
 
 /* nfooter */
-.footer{
-    max-width: 100%;
+#nfoot{
+    max-width: 1440px;
     background-color: #42454A;
+}
+
+.fcmnhd{
+    display: flex;
+    justify-content: end;
+    padding-top: 99px;
+    padding-right: 196px;
+    gap: 105px;
+}
+
+.fcmnhd h2{
+    color:#FBFBFB ;
+    font-size: 22px;
+    font-weight:700 ;
+    font-family: var(--prfnt);
+}
+
+.legalsicon{
+    display: flex;
 }
