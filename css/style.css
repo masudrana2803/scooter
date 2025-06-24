@@ -687,3 +687,8 @@ color: #333;
     color: black;
 }
 
+/* nfooter */
+.footer{
+    max-width: 100%;
+    background-color: #42454A;
+}
