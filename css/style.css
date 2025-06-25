@@ -719,13 +719,13 @@ color: #333;
     gap: 28px;
         padding-left: 0px !important;
 }
-.Legals ul{
+.legals ul{
     /* background-color: red; */
     display: flex;
     justify-content: start;
     flex-direction: column;
     gap: 28px;
-        padding-left: 0px !important;
+    padding-left: 0px !important;
 }
 
 .fcmnhd h2{
@@ -741,7 +741,7 @@ color: #333;
     font-size: 16px;
     font-weight:400 ;
     font-family: var(--prfnt);
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 #nfoot{
@@ -756,3 +756,34 @@ color: #333;
     top: -15%;
 }
 
+
+
+/* .social_icons a{
+    width: 32px;
+    height: 32px;
+    gap: 16px;
+    background: red;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+} */
+
+.legals ul li.social_icons{
+    /* background-color: #00d2ff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legals ul li.social_icons a {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    color: var(--prclr);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
