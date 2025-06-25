@@ -697,8 +697,37 @@ color: #333;
     display: flex;
     justify-content: end;
     padding-top: 99px;
-    padding-right: 196px;
-    gap: 105px;
+    padding-right: 146px;
+    padding-bottom: 142px;
+    gap: 102px;
+
+}
+
+.about ul{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 28px;
+    padding-left: 0px !important;
+
+}
+
+.Resources ul{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+        padding-left: 0px !important;
+}
+.Legals ul{
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 28px;
+        padding-left: 0px !important;
 }
 
 .fcmnhd h2{
@@ -706,8 +735,26 @@ color: #333;
     font-size: 22px;
     font-weight:700 ;
     font-family: var(--prfnt);
+    margin-bottom: 44px;
 }
 
-.legalsicon{
-    display: flex;
+.fcmnhd ul li a{
+    color:#FBFBFB ;
+    font-size: 16px;
+    font-weight:400 ;
+    font-family: var(--prfnt);
+    margin-bottom: 10px;
 }
+
+#nfoot{
+    position: relative;
+}
+
+.footerimg{
+    max-width: 729px;
+    height: 551px;
+    position: absolute;
+    left: 0%;
+    top: -15%;
+}
+
