@@ -35,3 +35,13 @@ $('.slider_single_item').slick({
 
 });
 		
+
+console.log('We are checking the variables')
+
+var wed='I am the variable 1'
+console.log(wed)
+
+var wer='I am the variable 2 \nwith new line breakages'
+
+console.log(wer)
+
