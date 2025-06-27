@@ -18,12 +18,9 @@
 	font-size: 40px;
 }
 .bannerimg {
-	right: -500px;
-	top: 85px;
+	right: -570px;
+	top: 0px;
+	width: max-content;
 }
-.bannerimg img{
-	width:30%;
-}
-
 
 }
