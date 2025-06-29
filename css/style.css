@@ -678,12 +678,17 @@ background-color:#f0e4e4 ;
     border: 2px solid #F5F5F5;
 }
 
-.subscription button a{
+.subscription button{
     text-align: center;
     color: #FBFBFB;
 }
 
-.subscription button a:hover{
+/* .subscription button a{
+    text-align: center;
+    color: #FBFBFB;
+} */
+
+.subscription button:hover{
     color: black;
 }
 
